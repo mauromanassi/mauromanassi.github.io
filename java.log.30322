@@ -1,0 +1,5 @@
+  Operating System: Darwin 20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64 x86_64
+  Processor ID:     x86 Family 6 Model 61 Stepping 4, GenuineIntel
+  Host Name:        MBP-Mauro.broadband
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Explorer NavigationContext request queue"
