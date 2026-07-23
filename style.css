@@ -306,8 +306,8 @@ nav.sub-nav a.active { background: var(--text); color: #fff; border-color: var(-
   header.site-header { padding: 16px 0; }
   .site-title { font-size: 1.25rem; }
 
-  nav.main-nav ul { gap: 16px 24px; }
-  nav.main-nav a { font-size: 0.92rem; }
+  nav.main-nav ul { gap: 18px 26px; }
+  nav.main-nav a { font-size: 1.8rem; }
 
   .hero-image { max-height: 400px; }
 
