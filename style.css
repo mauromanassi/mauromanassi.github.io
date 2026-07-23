@@ -108,7 +108,7 @@ body.home header.site-header {
 body.home .hero-wrap {
   flex: 1 1 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
 }
 body.home .hero-image {
