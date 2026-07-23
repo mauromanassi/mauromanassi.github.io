@@ -116,7 +116,7 @@ body.home .hero-image {
   height: 100%;
   max-height: none;
   object-fit: cover;
-  object-position: center 95%;
+  object-position: center 100%;
   display: block;
 }
 
@@ -304,7 +304,7 @@ nav.sub-nav a.active { background: var(--text); color: #fff; border-color: var(-
 
 @media (max-width: 768px) {
   header.site-header { padding: 16px 0; }
-  .site-title { font-size: 1.25rem; }
+  .site-title { font-size: 2.5rem; }
 
   nav.main-nav ul { gap: 18px 26px; }
   nav.main-nav a { font-size: 1.8rem; }
@@ -334,7 +334,7 @@ nav.sub-nav a.active { background: var(--text); color: #fff; border-color: var(-
 }
 
 @media (max-width: 420px) {
-  .site-title { font-size: 1.05rem; letter-spacing: 0.02em; }
+  .site-title { font-size: 2.1rem; letter-spacing: 0.02em; }
   nav.main-nav ul { gap: 10px 14px; }
   .hero-image { max-height: 280px; }
   .hero-quote { font-size: 0.9rem; }
