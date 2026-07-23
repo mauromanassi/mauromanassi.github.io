@@ -312,6 +312,23 @@ nav.sub-nav a.active { background: var(--text); color: #fff; border-color: var(-
 
   .hero-image { max-height: 400px; }
 
+  /* Mobile Safari's 100vh is unreliable (address bar resizing), so don't
+     force the homepage into a locked single screen on small viewports —
+     let it flow normally instead. */
+  body.home {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+  body.home .hero-wrap {
+    flex: none;
+  }
+  body.home .hero-image {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
   main { padding: 32px 0 48px; }
 
   h1 { font-size: 1.45rem; }
