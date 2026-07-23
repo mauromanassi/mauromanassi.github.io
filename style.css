@@ -95,28 +95,26 @@ nav.main-nav a.active {
   display: block;
 }
 
-/* Homepage-only: fit header + full (uncropped) hero image in one screen, no scroll */
+/* Homepage-only: full-width, uncropped hero image below a compact header */
 body.home {
-  height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 body.home header.site-header {
   flex: 0 0 auto;
+  padding: 14px 0 10px;
 }
 body.home .hero-wrap {
   flex: 1 1 auto;
-  min-height: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 body.home .hero-image {
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-height: none;
   object-fit: contain;
   object-position: center;
 }
