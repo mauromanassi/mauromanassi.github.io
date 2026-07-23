@@ -97,7 +97,7 @@ nav.main-nav a.active {
 .hero-quote {
   text-align: center;
   font-weight: 700;
-  margin: 0 0 20px;
+  margin: 20px 0 0;
 }
 .hero-quote .attribution {
   font-weight: 700;
