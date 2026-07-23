@@ -95,11 +95,12 @@ nav.main-nav a.active {
   display: block;
 }
 
-/* Homepage-only: full-width, uncropped hero image below a compact header */
+/* Homepage-only: full-width hero image locked to one screen, no scroll */
 body.home {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 body.home header.site-header {
   flex: 0 0 auto;
@@ -107,16 +108,16 @@ body.home header.site-header {
 }
 body.home .hero-wrap {
   flex: 1 1 auto;
-  display: flex;
-  align-items: flex-start;
+  min-height: 0;
   overflow: hidden;
 }
 body.home .hero-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-height: none;
-  object-fit: contain;
-  object-position: center;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
 }
 
 main {
