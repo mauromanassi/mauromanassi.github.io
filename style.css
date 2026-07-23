@@ -89,9 +89,9 @@ nav.main-nav a.active {
 
 .hero-image {
   width: 100%;
-  max-height: 780px;
+  max-height: 700px;
   object-fit: cover;
-  object-position: center 45%;
+  object-position: center 70%;
   display: block;
 }
 
