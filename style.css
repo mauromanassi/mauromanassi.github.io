@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+
 :root {
   --max-width: 1100px;
-  --text: #1a1a1a;
-  --muted: #555;
-  --border: #e5e5e5;
-  --link: #1a4fa3;
-  --bg: #ffffff;
+  --text: #262220;
+  --muted: #756c60;
+  --border: #e7e0d2;
+  --link: #0f6e56;
+  --bg: #faf7f1;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -46,10 +49,11 @@ header.site-header .wrap {
 }
 
 .site-title {
-  font-size: 2.4rem;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--text);
 }
 .site-title:hover { text-decoration: none; }
@@ -57,7 +61,7 @@ header.site-header .wrap {
 nav.main-nav ul {
   list-style: none;
   display: flex;
-  gap: 80px;
+  gap: 44px;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -65,10 +69,12 @@ nav.main-nav ul {
 }
 
 nav.main-nav a {
-  color: var(--text);
+  color: var(--muted);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
 }
+nav.main-nav a:hover { color: var(--text); }
 
 nav.main-nav a.active {
   color: var(--link);
@@ -121,17 +127,21 @@ body.home .hero-image {
 }
 
 main {
-  padding: 48px 0 64px;
+  padding: 64px 0 80px;
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 2rem;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 1.3rem;
-  margin-top: 2.5rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-top: 3rem;
 }
 
 section + section {
@@ -146,7 +156,7 @@ section + section {
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 32px;
+  gap: 40px;
   margin-top: 24px;
 }
 
@@ -187,7 +197,7 @@ section + section {
 }
 
 .pub-item {
-  padding: 14px 0;
+  padding: 20px 0;
 }
 
 .pub-item .pub-title {
@@ -221,7 +231,7 @@ section + section {
   color: var(--text);
 }
 .pub-links a:hover {
-  background: #f6f6f6;
+  background: #f1ebdc;
   text-decoration: none;
 }
 
@@ -262,7 +272,7 @@ footer.site-footer {
 }
 
 .notice {
-  background: #f6f6f6;
+  background: #f1ebdc;
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 16px 20px;
@@ -291,7 +301,7 @@ nav.sub-nav a {
   font-size: 0.9rem;
   font-weight: 600;
 }
-nav.sub-nav a:hover { text-decoration: none; background: #f6f6f6; }
+nav.sub-nav a:hover { text-decoration: none; background: #f1ebdc; }
 nav.sub-nav a.active { background: var(--text); color: #fff; border-color: var(--text); }
 
 .link-list {
@@ -303,7 +313,7 @@ nav.sub-nav a.active { background: var(--text); color: #fff; border-color: var(-
 .resource-hub-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  gap: 26px;
   margin-top: 28px;
 }
 .resource-hub-grid a {
