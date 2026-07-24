@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 <title>Manassi Laboratory - University of Aberdeen</title>
 <meta name="description" content="Manassi Lab - School of Psychology, William Guild Building, Aberdeen (UK).">
-<link rel="stylesheet" href="style.css?v=25">
+<link rel="stylesheet" href="style.css?v=26">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Manassi Laboratory">
 <meta property="og:title" content="Manassi Laboratory - University of Aberdeen">
@@ -25,8 +25,11 @@
 </head>
 <body>
 <header class="site-header">
-  <div class="wrap">
-    <a class="site-title" href="index.html">Manassi Laboratory</a>
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Manassi</span>
+      <span class="brand-sub">Lab</span>
+    </a>
     <nav class="main-nav">
       <ul>
         <li><a href="team.html">People</a></li>
@@ -39,74 +42,98 @@
   </div>
 </header>
 
-<div class="hero-wrap">
-  <img class="hero-image" src="assets/images/hero.jpg" alt="Brice Marden, Study For The Muses, 1991&ndash;1995">
-  <div class="hero-panel">
-    <p class="eyebrow">Lecturer &middot; School of Psychology</p>
-    <h1 class="hero-headline">Understanding how the visual system builds a stable, coherent world.</h1>
-    <p class="hero-meta">Mauro Manassi &middot; University of Aberdeen</p>
-    <div class="hero-ctas">
-      <a class="btn btn-primary" href="research.html">Explore our research &rarr;</a>
-      <a class="btn btn-outline" href="team.html">Meet the team</a>
+<section class="hero-section">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Lecturer &middot; School of Psychology</p>
+      <h1 class="hero-headline">Understanding how the visual system builds a stable, coherent world.</h1>
+      <p class="hero-lead">Mauro Manassi studies how the brain organizes cluttered visual input and stabilizes our perception over time &mdash; through the lens of visual crowding and serial dependence.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="research.html">Explore our research &rarr;</a>
+        <a class="btn btn-outline" href="team.html">Meet the team</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <img src="assets/images/hero.jpg" alt="Brice Marden, Study For The Muses, 1991&ndash;1995" loading="lazy">
     </div>
   </div>
-</div>
+</section>
 
 <section class="section">
   <div class="wrap">
     <p class="eyebrow">Our research</p>
-    <h2 class="section-heading">Two principles of a coherent visual world</h2>
-    <p class="section-lead">Object recognition seems effortless, but our visual world is constantly dynamic and cluttered. The lab studies two mechanisms that let us make sense of it &mdash; plus a novel illusion that grew out of that work.</p>
+    <h2 class="section-heading">Four questions about how we see</h2>
+    <p class="section-lead">Object recognition seems effortless, but our visual world is constantly dynamic and cluttered. The lab studies how the brain organizes and stabilizes what we see &mdash; and how that shapes the judgements we form.</p>
 
-    <div class="topic-grid">
-      <a class="topic-card" href="crowding.html">
-        <img src="assets/images/crowding-1.png" alt="Crowding demonstration figure" loading="lazy">
-        <div class="topic-card-body">
-          <h3>Organization</h3>
-          <p>How the visual system organizes cluttered input into a global, organized representation &mdash; studied through visual crowding.</p>
-          <span class="topic-card-link">Learn more &rarr;</span>
-        </div>
+    <div class="icon-grid">
+      <a class="icon-card" href="crowding.html">
+        <span class="icon-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+        </span>
+        <h3>Organisation</h3>
+        <p>How the visual system organizes cluttered input into a global, organized representation &mdash; studied through visual crowding.</p>
+        <span class="icon-card-link">Learn more &rarr;</span>
       </a>
-      <a class="topic-card" href="serialdependence.html">
-        <img src="assets/images/sd-1.png" alt="Serial dependence in ensemble orientation" loading="lazy">
-        <div class="topic-card-body">
-          <h3>Stabilization</h3>
-          <p>How serial dependence stabilizes our percept of the world across time, despite discontinuous and distorted visual input.</p>
-          <span class="topic-card-link">Learn more &rarr;</span>
-        </div>
+      <a class="icon-card" href="serialdependence.html">
+        <span class="icon-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 1 9 9"></path><polyline points="3 8 3 12 7 12"></polyline></svg>
+        </span>
+        <h3>Stabilisation</h3>
+        <p>How serial dependence stabilizes our percept of the world across time, despite discontinuous and distorted visual input.</p>
+        <span class="icon-card-link">Learn more &rarr;</span>
       </a>
-      <a class="topic-card" href="stability-illusion.html">
-        <img src="https://img.youtube.com/vi/cLqVwvdOzuk/hqdefault.jpg" alt="Illusion of visual stability demo video still" loading="lazy">
-        <div class="topic-card-body">
-          <h3>Illusion of visual stability</h3>
-          <p>A novel visual illusion showing direct evidence for an online mechanism that continuously smooths our percepts over time.</p>
-          <span class="topic-card-link">Watch the demo &rarr;</span>
-        </div>
+      <a class="icon-card" href="publications.html">
+        <span class="icon-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1"></rect><line x1="8" y1="8" x2="16" y2="8"></line><line x1="8" y1="12" x2="16" y2="12"></line><line x1="8" y1="16" x2="12" y2="16"></line></svg>
+        </span>
+        <h3>Medical image perception</h3>
+        <p>How radiologists and clinicians search, group, and interpret visual patterns in medical images.</p>
+        <span class="icon-card-link">See related work &rarr;</span>
+      </a>
+      <a class="icon-card" href="publications.html">
+        <span class="icon-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.4"></circle><path d="M5 20c0-3.9 3.1-7 7-7s7 3.1 7 7"></path></svg>
+        </span>
+        <h3>First impressions</h3>
+        <p>How fleeting judgements of faces &mdash; like trustworthiness &mdash; are biased by what we saw just moments before.</p>
+        <span class="icon-card-link">See related work &rarr;</span>
       </a>
     </div>
   </div>
 </section>
 
 <section class="section section-alt">
-  <div class="wrap panel-grid">
-    <div class="panel">
-      <p class="eyebrow">Latest publication</p>
-      <h3 class="panel-title">Time, space and feature similarity determine attractive and repulsive serial biases in trustworthiness impressions</h3>
-      <p class="panel-meta">Marini F., Sutherland C., Jeffrey L., &amp; Manassi M. &middot; BMC Biology, 24, 136 (2026)</p>
-      <a class="panel-link" href="https://doi.org/10.1186/s12915-026-02650-3" target="_blank" rel="noopener">Read the paper &rarr;</a>
-    </div>
-
-    <div class="panel">
-      <p class="eyebrow">The team</p>
-      <h3 class="panel-title">A small lab investigating how we perceive a stable world</h3>
-      <p class="panel-meta">Led by Mauro Manassi, with PhD students, research assistants, and collaborators across visual perception and psychophysics.</p>
-      <div class="people-strip">
-        <img src="assets/images/mauro.png" alt="Mauro Manassi" loading="lazy">
-        <img src="assets/images/fiammetta.jpg" alt="Fiammetta Marini" loading="lazy">
-        <img src="assets/images/maira.jpg" alt="Maira Riga" loading="lazy">
-        <img src="assets/images/jennifer.jpg" alt="Jennifer Magerl Fuller" loading="lazy">
-      </div>
-      <a class="panel-link" href="team.html">Meet the team &rarr;</a>
+  <div class="wrap">
+    <p class="eyebrow">Latest from the lab</p>
+    <h2 class="section-heading">News &amp; updates</h2>
+    <div class="news-grid">
+      <a class="news-card" href="https://doi.org/10.1186/s12915-026-02650-3" target="_blank" rel="noopener">
+        <div class="news-thumb news-thumb-a"></div>
+        <div class="news-card-body">
+          <p class="news-date">2026 &middot; Publication</p>
+          <h3>New paper in BMC Biology</h3>
+          <p>Time, space and feature similarity determine attractive and repulsive serial biases in trustworthiness impressions.</p>
+          <span class="news-card-link">Read the paper &rarr;</span>
+        </div>
+      </a>
+      <a class="news-card" href="assets/files/ecvp2024-programme.pdf" target="_blank" rel="noopener">
+        <div class="news-thumb news-thumb-b"></div>
+        <div class="news-card-body">
+          <p class="news-date">2024 &middot; Conference</p>
+          <h3>Hosting ECVP 2024 in Aberdeen</h3>
+          <p>The lab helped host the European Conference on Visual Perception in Aberdeen.</p>
+          <span class="news-card-link">View programme &rarr;</span>
+        </div>
+      </a>
+      <a class="news-card" href="assets/files/aberdeen-award.pdf" target="_blank" rel="noopener">
+        <div class="news-thumb news-thumb-c"></div>
+        <div class="news-card-body">
+          <p class="news-date">Award</p>
+          <h3>Annual Cognitive Paper Prize</h3>
+          <p>Recognised for &ldquo;Promoting a stable visual world with serial dependence.&rdquo;</p>
+          <span class="news-card-link">Read the citation &rarr;</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
