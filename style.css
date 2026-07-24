@@ -2,11 +2,11 @@
 
 :root {
   --max-width: 1100px;
-  --text: #262220;
-  --muted: #756c60;
-  --border: #e7e0d2;
+  --text: #111111;
+  --muted: #6b6b6b;
+  --border: #e3e3e1;
   --link: #0f6e56;
-  --bg: #faf7f1;
+  --bg: #fbfbfa;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
@@ -168,7 +168,7 @@ nav.main-nav a.active {
 .btn-outline:hover { border-color: var(--text); text-decoration: none; }
 
 .section { padding: 72px 0; }
-.section-alt { background: #f3ede0; }
+.section-alt { background: #f4f4f2; }
 .section-heading {
   font-family: var(--serif);
   font-weight: 600;
@@ -216,9 +216,13 @@ nav.main-nav a.active {
   padding: 30px 26px;
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: var(--bg);
+  background: #ffffff;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
-.icon-card:hover { border-color: var(--link); }
+.icon-card:hover {
+  box-shadow: 0 14px 28px rgba(17, 17, 17, 0.08), 0 3px 8px rgba(17, 17, 17, 0.05);
+  transform: translateY(-2px);
+}
 .icon-card-icon {
   display: flex;
   align-items: center;
@@ -226,7 +230,7 @@ nav.main-nav a.active {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background: #f1ebdc;
+  background: #f0f0ee;
   color: var(--link);
   margin-bottom: 20px;
 }
@@ -236,9 +240,9 @@ nav.main-nav a.active {
   font-weight: 600;
   font-size: 1.12rem;
   margin: 0 0 8px;
+  color: var(--text);
 }
-.icon-card p { color: var(--muted); margin: 0 0 14px; font-size: 0.92rem; }
-.icon-card-link { font-weight: 700; font-size: 0.85rem; color: var(--link); }
+.icon-card p { color: var(--muted); margin: 0; font-size: 0.92rem; }
 
 .panel-grid {
   display: grid;
@@ -490,7 +494,7 @@ h2.pub-year {
 
 footer.site-footer {
   border-top: 1px solid var(--border);
-  background: #f3ede0;
+  background: #f4f4f2;
   padding: 48px 0 0;
   color: var(--muted);
   font-size: 0.9rem;
